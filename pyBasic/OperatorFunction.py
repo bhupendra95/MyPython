@@ -18,3 +18,23 @@ if(op.lt(a,b)):
     print (str(a)+" is less than "+str(b))
 else :
     print (str(a)+" is not less than "+str(b))
+
+#le () : less than or equal
+# using le() to check if a is less than or equal b
+if(op.le(a,b)):
+    print (str(a)+" is less than or equal to "+str(b))
+else :
+    print (str(a)+" is not less than or equal to "+str(b))
+
+#eq () : equal
+#using eq() to check if a is equal to b
+if (op.eq(a,b)):
+    print (str(a)+" is equal to "+str(b))
+else :
+    print (str(a)+" is not equal to "+str(b))
+
+
+#Similarly goes for :
+# gt() : greater than
+# ge() : greater than or equal to
+# ne() : not equal 
